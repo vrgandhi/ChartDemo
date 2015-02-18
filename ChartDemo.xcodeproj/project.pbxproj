@@ -14,6 +14,30 @@
 		7851CDB51A7614C500754F3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7851CDB41A7614C500754F3D /* Images.xcassets */; };
 		7851CDB81A7614C500754F3D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7851CDB61A7614C500754F3D /* LaunchScreen.xib */; };
 		7851CDC41A7614C500754F3D /* ChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDC31A7614C500754F3D /* ChartDemoTests.m */; };
+		7851CDFF1A76151F00754F3D /* GKBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDD01A76151F00754F3D /* GKBar.m */; };
+		7851CE001A76151F00754F3D /* GKBarGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDD21A76151F00754F3D /* GKBarGraph.m */; };
+		7851CE011A76151F00754F3D /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDD71A76151F00754F3D /* BButton.m */; };
+		7851CE021A76151F00754F3D /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDD91A76151F00754F3D /* NSString+FontAwesome.m */; };
+		7851CE031A76151F00754F3D /* UIColor+BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDDB1A76151F00754F3D /* UIColor+BButton.m */; };
+		7851CE041A76151F00754F3D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7851CDDD1A76151F00754F3D /* FontAwesome.ttf */; };
+		7851CE051A76151F00754F3D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7851CDDE1A76151F00754F3D /* LICENSE.txt */; };
+		7851CE061A76151F00754F3D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDDF1A76151F00754F3D /* README.md */; };
+		7851CE071A76151F00754F3D /* ScrollViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDE41A76151F00754F3D /* ScrollViewFrameAccessor.m */; };
+		7851CE081A76151F00754F3D /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDE61A76151F00754F3D /* ViewFrameAccessor.m */; };
+		7851CE091A76151F00754F3D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7851CDE71A76151F00754F3D /* LICENSE */; };
+		7851CE0A1A76151F00754F3D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDE81A76151F00754F3D /* README.md */; };
+		7851CE0B1A76151F00754F3D /* GKLineGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDEC1A76151F00754F3D /* GKLineGraph.m */; };
+		7851CE0C1A76151F00754F3D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7851CDEE1A76151F00754F3D /* LICENSE */; };
+		7851CE0D1A76151F00754F3D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDEF1A76151F00754F3D /* README.md */; };
+		7851CE0E1A76151F00754F3D /* NSArray+MK_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDF41A76151F00754F3D /* NSArray+MK_Block.m */; };
+		7851CE0F1A76151F00754F3D /* NSArray+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDF61A76151F00754F3D /* NSArray+MK_Misc.m */; };
+		7851CE101A76151F00754F3D /* NSMutableArray+MK_Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDF81A76151F00754F3D /* NSMutableArray+MK_Misc.m */; };
+		7851CE111A76151F00754F3D /* NSMutableArray+MK_Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDFA1A76151F00754F3D /* NSMutableArray+MK_Queue.m */; };
+		7851CE121A76151F00754F3D /* NSMutableArray+MK_Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDFC1A76151F00754F3D /* NSMutableArray+MK_Stack.m */; };
+		7851CE131A76151F00754F3D /* UIColor+GraphKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CDFE1A76151F00754F3D /* UIColor+GraphKit.m */; };
+		7851CE1B1A76157100754F3D /* JBChartInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CE161A76157100754F3D /* JBChartInformationView.m */; };
+		7851CE1C1A76157100754F3D /* JBChartTooltipTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CE181A76157100754F3D /* JBChartTooltipTipView.m */; };
+		7851CE1D1A76157100754F3D /* JBChartTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7851CE1A1A76157100754F3D /* JBChartTooltipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +64,50 @@
 		7851CDBD1A7614C500754F3D /* ChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7851CDC21A7614C500754F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7851CDC31A7614C500754F3D /* ChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartDemoTests.m; sourceTree = "<group>"; };
+		7851CDCF1A76151F00754F3D /* GKBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKBar.h; sourceTree = "<group>"; };
+		7851CDD01A76151F00754F3D /* GKBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKBar.m; sourceTree = "<group>"; };
+		7851CDD11A76151F00754F3D /* GKBarGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKBarGraph.h; sourceTree = "<group>"; };
+		7851CDD21A76151F00754F3D /* GKBarGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKBarGraph.m; sourceTree = "<group>"; };
+		7851CDD61A76151F00754F3D /* BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BButton.h; sourceTree = "<group>"; };
+		7851CDD71A76151F00754F3D /* BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BButton.m; sourceTree = "<group>"; };
+		7851CDD81A76151F00754F3D /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		7851CDD91A76151F00754F3D /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		7851CDDA1A76151F00754F3D /* UIColor+BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BButton.h"; sourceTree = "<group>"; };
+		7851CDDB1A76151F00754F3D /* UIColor+BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BButton.m"; sourceTree = "<group>"; };
+		7851CDDD1A76151F00754F3D /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		7851CDDE1A76151F00754F3D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		7851CDDF1A76151F00754F3D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7851CDE21A76151F00754F3D /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
+		7851CDE31A76151F00754F3D /* ScrollViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewFrameAccessor.h; sourceTree = "<group>"; };
+		7851CDE41A76151F00754F3D /* ScrollViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewFrameAccessor.m; sourceTree = "<group>"; };
+		7851CDE51A76151F00754F3D /* ViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFrameAccessor.h; sourceTree = "<group>"; };
+		7851CDE61A76151F00754F3D /* ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFrameAccessor.m; sourceTree = "<group>"; };
+		7851CDE71A76151F00754F3D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7851CDE81A76151F00754F3D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7851CDE91A76151F00754F3D /* GraphKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphKit.h; sourceTree = "<group>"; };
+		7851CDEB1A76151F00754F3D /* GKLineGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKLineGraph.h; sourceTree = "<group>"; };
+		7851CDEC1A76151F00754F3D /* GKLineGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKLineGraph.m; sourceTree = "<group>"; };
+		7851CDEE1A76151F00754F3D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7851CDEF1A76151F00754F3D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7851CDF21A76151F00754F3D /* NSArray+MK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MK.h"; sourceTree = "<group>"; };
+		7851CDF31A76151F00754F3D /* NSArray+MK_Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MK_Block.h"; sourceTree = "<group>"; };
+		7851CDF41A76151F00754F3D /* NSArray+MK_Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MK_Block.m"; sourceTree = "<group>"; };
+		7851CDF51A76151F00754F3D /* NSArray+MK_Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MK_Misc.h"; sourceTree = "<group>"; };
+		7851CDF61A76151F00754F3D /* NSArray+MK_Misc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MK_Misc.m"; sourceTree = "<group>"; };
+		7851CDF71A76151F00754F3D /* NSMutableArray+MK_Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MK_Misc.h"; sourceTree = "<group>"; };
+		7851CDF81A76151F00754F3D /* NSMutableArray+MK_Misc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MK_Misc.m"; sourceTree = "<group>"; };
+		7851CDF91A76151F00754F3D /* NSMutableArray+MK_Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MK_Queue.h"; sourceTree = "<group>"; };
+		7851CDFA1A76151F00754F3D /* NSMutableArray+MK_Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MK_Queue.m"; sourceTree = "<group>"; };
+		7851CDFB1A76151F00754F3D /* NSMutableArray+MK_Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MK_Stack.h"; sourceTree = "<group>"; };
+		7851CDFC1A76151F00754F3D /* NSMutableArray+MK_Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MK_Stack.m"; sourceTree = "<group>"; };
+		7851CDFD1A76151F00754F3D /* UIColor+GraphKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GraphKit.h"; sourceTree = "<group>"; };
+		7851CDFE1A76151F00754F3D /* UIColor+GraphKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GraphKit.m"; sourceTree = "<group>"; };
+		7851CE151A76157100754F3D /* JBChartInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartInformationView.h; sourceTree = "<group>"; };
+		7851CE161A76157100754F3D /* JBChartInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartInformationView.m; sourceTree = "<group>"; };
+		7851CE171A76157100754F3D /* JBChartTooltipTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartTooltipTipView.h; sourceTree = "<group>"; };
+		7851CE181A76157100754F3D /* JBChartTooltipTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartTooltipTipView.m; sourceTree = "<group>"; };
+		7851CE191A76157100754F3D /* JBChartTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartTooltipView.h; sourceTree = "<group>"; };
+		7851CE1A1A76157100754F3D /* JBChartTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartTooltipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +149,7 @@
 		7851CDA61A7614C500754F3D /* ChartDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7851CDCD1A76151F00754F3D /* Chart */,
 				7851CDAB1A7614C500754F3D /* AppDelegate.h */,
 				7851CDAC1A7614C500754F3D /* AppDelegate.m */,
 				7851CDAE1A7614C500754F3D /* ViewController.h */,
@@ -117,6 +186,153 @@
 				7851CDC21A7614C500754F3D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7851CDCD1A76151F00754F3D /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDCE1A76151F00754F3D /* BarGraph */,
+				7851CDD31A76151F00754F3D /* BButton */,
+				7851CDE01A76151F00754F3D /* FrameAccessor */,
+				7851CDE91A76151F00754F3D /* GraphKit.h */,
+				7851CDEA1A76151F00754F3D /* LineGraph */,
+				7851CDED1A76151F00754F3D /* MKFoundationKit */,
+				7851CDFD1A76151F00754F3D /* UIColor+GraphKit.h */,
+				7851CDFE1A76151F00754F3D /* UIColor+GraphKit.m */,
+				7851CE141A76157100754F3D /* Misc */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		7851CDCE1A76151F00754F3D /* BarGraph */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDCF1A76151F00754F3D /* GKBar.h */,
+				7851CDD01A76151F00754F3D /* GKBar.m */,
+				7851CDD11A76151F00754F3D /* GKBarGraph.h */,
+				7851CDD21A76151F00754F3D /* GKBarGraph.m */,
+			);
+			path = BarGraph;
+			sourceTree = "<group>";
+		};
+		7851CDD31A76151F00754F3D /* BButton */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDD41A76151F00754F3D /* BButton */,
+				7851CDDE1A76151F00754F3D /* LICENSE.txt */,
+				7851CDDF1A76151F00754F3D /* README.md */,
+			);
+			path = BButton;
+			sourceTree = "<group>";
+		};
+		7851CDD41A76151F00754F3D /* BButton */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDD51A76151F00754F3D /* Classes */,
+				7851CDDC1A76151F00754F3D /* resources */,
+			);
+			path = BButton;
+			sourceTree = "<group>";
+		};
+		7851CDD51A76151F00754F3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDD61A76151F00754F3D /* BButton.h */,
+				7851CDD71A76151F00754F3D /* BButton.m */,
+				7851CDD81A76151F00754F3D /* NSString+FontAwesome.h */,
+				7851CDD91A76151F00754F3D /* NSString+FontAwesome.m */,
+				7851CDDA1A76151F00754F3D /* UIColor+BButton.h */,
+				7851CDDB1A76151F00754F3D /* UIColor+BButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7851CDDC1A76151F00754F3D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDDD1A76151F00754F3D /* FontAwesome.ttf */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		7851CDE01A76151F00754F3D /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDE11A76151F00754F3D /* FrameAccessor */,
+				7851CDE71A76151F00754F3D /* LICENSE */,
+				7851CDE81A76151F00754F3D /* README.md */,
+			);
+			path = FrameAccessor;
+			sourceTree = "<group>";
+		};
+		7851CDE11A76151F00754F3D /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDE21A76151F00754F3D /* FrameAccessor.h */,
+				7851CDE31A76151F00754F3D /* ScrollViewFrameAccessor.h */,
+				7851CDE41A76151F00754F3D /* ScrollViewFrameAccessor.m */,
+				7851CDE51A76151F00754F3D /* ViewFrameAccessor.h */,
+				7851CDE61A76151F00754F3D /* ViewFrameAccessor.m */,
+			);
+			path = FrameAccessor;
+			sourceTree = "<group>";
+		};
+		7851CDEA1A76151F00754F3D /* LineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDEB1A76151F00754F3D /* GKLineGraph.h */,
+				7851CDEC1A76151F00754F3D /* GKLineGraph.m */,
+			);
+			path = LineGraph;
+			sourceTree = "<group>";
+		};
+		7851CDED1A76151F00754F3D /* MKFoundationKit */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDEE1A76151F00754F3D /* LICENSE */,
+				7851CDEF1A76151F00754F3D /* README.md */,
+				7851CDF01A76151F00754F3D /* Source */,
+			);
+			path = MKFoundationKit;
+			sourceTree = "<group>";
+		};
+		7851CDF01A76151F00754F3D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDF11A76151F00754F3D /* NSArray */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7851CDF11A76151F00754F3D /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				7851CDF21A76151F00754F3D /* NSArray+MK.h */,
+				7851CDF31A76151F00754F3D /* NSArray+MK_Block.h */,
+				7851CDF41A76151F00754F3D /* NSArray+MK_Block.m */,
+				7851CDF51A76151F00754F3D /* NSArray+MK_Misc.h */,
+				7851CDF61A76151F00754F3D /* NSArray+MK_Misc.m */,
+				7851CDF71A76151F00754F3D /* NSMutableArray+MK_Misc.h */,
+				7851CDF81A76151F00754F3D /* NSMutableArray+MK_Misc.m */,
+				7851CDF91A76151F00754F3D /* NSMutableArray+MK_Queue.h */,
+				7851CDFA1A76151F00754F3D /* NSMutableArray+MK_Queue.m */,
+				7851CDFB1A76151F00754F3D /* NSMutableArray+MK_Stack.h */,
+				7851CDFC1A76151F00754F3D /* NSMutableArray+MK_Stack.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		7851CE141A76157100754F3D /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				7851CE151A76157100754F3D /* JBChartInformationView.h */,
+				7851CE161A76157100754F3D /* JBChartInformationView.m */,
+				7851CE171A76157100754F3D /* JBChartTooltipTipView.h */,
+				7851CE181A76157100754F3D /* JBChartTooltipTipView.m */,
+				7851CE191A76157100754F3D /* JBChartTooltipView.h */,
+				7851CE1A1A76157100754F3D /* JBChartTooltipView.m */,
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +415,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7851CE091A76151F00754F3D /* LICENSE in Resources */,
 				7851CDB31A7614C500754F3D /* Main.storyboard in Resources */,
 				7851CDB81A7614C500754F3D /* LaunchScreen.xib in Resources */,
+				7851CE0C1A76151F00754F3D /* LICENSE in Resources */,
 				7851CDB51A7614C500754F3D /* Images.xcassets in Resources */,
+				7851CE051A76151F00754F3D /* LICENSE.txt in Resources */,
+				7851CE041A76151F00754F3D /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +439,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7851CE021A76151F00754F3D /* NSString+FontAwesome.m in Sources */,
+				7851CE0B1A76151F00754F3D /* GKLineGraph.m in Sources */,
+				7851CE081A76151F00754F3D /* ViewFrameAccessor.m in Sources */,
+				7851CE131A76151F00754F3D /* UIColor+GraphKit.m in Sources */,
 				7851CDB01A7614C500754F3D /* ViewController.m in Sources */,
+				7851CE071A76151F00754F3D /* ScrollViewFrameAccessor.m in Sources */,
+				7851CE111A76151F00754F3D /* NSMutableArray+MK_Queue.m in Sources */,
+				7851CE0E1A76151F00754F3D /* NSArray+MK_Block.m in Sources */,
+				7851CE121A76151F00754F3D /* NSMutableArray+MK_Stack.m in Sources */,
+				7851CE1C1A76157100754F3D /* JBChartTooltipTipView.m in Sources */,
+				7851CE031A76151F00754F3D /* UIColor+BButton.m in Sources */,
+				7851CE001A76151F00754F3D /* GKBarGraph.m in Sources */,
+				7851CE0A1A76151F00754F3D /* README.md in Sources */,
+				7851CE1B1A76157100754F3D /* JBChartInformationView.m in Sources */,
+				7851CE011A76151F00754F3D /* BButton.m in Sources */,
+				7851CE101A76151F00754F3D /* NSMutableArray+MK_Misc.m in Sources */,
+				7851CE0F1A76151F00754F3D /* NSArray+MK_Misc.m in Sources */,
+				7851CDFF1A76151F00754F3D /* GKBar.m in Sources */,
+				7851CE0D1A76151F00754F3D /* README.md in Sources */,
+				7851CE061A76151F00754F3D /* README.md in Sources */,
+				7851CE1D1A76157100754F3D /* JBChartTooltipView.m in Sources */,
 				7851CDAD1A7614C500754F3D /* AppDelegate.m in Sources */,
 				7851CDAA1A7614C500754F3D /* main.m in Sources */,
 			);
@@ -345,6 +585,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChartDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,6 +596,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChartDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
